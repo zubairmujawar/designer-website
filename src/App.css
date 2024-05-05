@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+*{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+.poppins {
+  font-family: "poppins";
+  font-weight: 300;
+}
+.Roobert {
+  font-family: "Roobert, sans-serif";
+  font-weight: 400;
+}
+.roboto-mono {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+.bg-img {
+  background: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810353.jpg?t=st=1714921728~exp=1714925328~hmac=5ada44382364eb20715040b74148deeed35a35f093887b60833a20b017db70dd&w=1380");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
