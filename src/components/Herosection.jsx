@@ -16,16 +16,16 @@ const Herosection = () => {
       >
         <h1 className="md:text-3xl text-xl  p-2 roboto-mono">
           <span className="text-red-500">
-            High-class digital product design
+          Creating Top-notch digital product design
           </span>{" "}
-          <br /> for innovative startups and medium-size companies that
+          <br /> for innovative startups and companies that
           understand the value of design.
         </h1>
         <h1 className="md:text-3xl text-xl mt-7 p-2 roboto-mono">
-          Let's turn your idea into a business together.
+        Let's turn your imagination into design.
         </h1>
       </motion.div>
-      <div className="max-w-[35rem]    "></div>
+      <div className="max-w-[35rem]"></div>
     </div>
   );
 };

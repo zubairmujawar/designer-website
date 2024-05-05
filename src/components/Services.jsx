@@ -28,7 +28,7 @@ const Services = () => {
           </div>
           <div className="  text-2xl p-2 m-2">
             <h1 className="md:text-3xl text-xl text-red-500  p-2 roboto-mono">
-              Sowfter i use
+            Tools
             </h1>
             <ul className="list-disc">
               <li>CoralDraw</li>
@@ -37,8 +37,8 @@ const Services = () => {
             </ul>
           </div>
         </div>
-        <div className="  md:w-[25rem]">
-          <img src={servicesImg} classname="w-[25rem]" alt="img" />
+        <div className="md:w-[25rem]">
+          <img src={servicesImg} className="w-[25rem]" alt="img" />
         </div>
       </div>
     </motion.div>

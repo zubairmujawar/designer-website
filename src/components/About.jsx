@@ -31,7 +31,7 @@ const About = () => {
           </p>
         </div>
         <div className="  md:w-[25rem]">
-          <img src={profileImg} classname="w-[25rem]" alt="img" />
+          <img src={profileImg} className="w-[25rem]" alt="img" />
         </div>
       </div>
     </motion.div>

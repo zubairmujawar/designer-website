@@ -6,15 +6,16 @@ import logo from "../assets/Z.png";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
-  const handleaClick = () => {
+  const scrollToSecstion = () => {
     // Close the responsive menu when a navigation a is clicked
-    setToggle(false);
+    
   };
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
+    setToggle(false);
   };
 
   return (
@@ -101,7 +102,7 @@ const Navbar = () => {
           <li className="cursor-pointer">
             <a
               to="/"
-              onClick={handleaClick}
+              onClick={() => scrollToSection("home")}
               className={({ isActive }) =>
                 `block py-2  ${
                   isActive ? "underline underline-offset-8" : "text-black"
@@ -113,8 +114,8 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              to="/about"
-              onClick={handleaClick}
+              to="#about"
+              onClick={() => scrollToSection("about")}
               className={({ isActive }) =>
                 `block py-2 ${
                   isActive ? "underline underline-offset-8" : "text-black"
@@ -126,8 +127,8 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              to="/products"
-              onClick={handleaClick}
+              to="#products"
+              onClick={() => scrollToSection("services")}
               className={({ isActive }) =>
                 `block py-2 ${
                   isActive ? "underline underline-offset-8" : "text-black"
@@ -140,7 +141,7 @@ const Navbar = () => {
           <li>
             <a
               to="#contact"
-              onClick={handleaClick}
+              onClick={() => scrollToSection("contact")}
               className={({ isActive }) =>
                 `block py-2 ${
                   isActive ? "underline underline-offset-8" : "text-black"
