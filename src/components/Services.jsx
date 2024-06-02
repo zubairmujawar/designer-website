@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import servicesImg from "../assets/services.png";
+import pdf from "../assets/portfolio-design_.pdf";
 const Services = () => {
   return (
     <motion.div
@@ -28,13 +29,18 @@ const Services = () => {
           </div>
           <div className="  text-2xl p-2 m-2">
             <h1 className="md:text-3xl text-xl text-red-500  p-2 roboto-mono">
-            Tools
+              Tools
             </h1>
             <ul className="list-disc">
+              <li>Adobe suite</li>
               <li>CoralDraw</li>
               <li>Figma</li>
-              <li>Photoshop</li>
             </ul>
+            <a href={pdf} target="_blank" rel="noopener noreferrer">
+              <button className="bg-white md:mt-4 flex items-center pdfBtn border border-gray-400 gap-2 text-black p-3 rounded-sm ProjectBtn text-xl">
+                See work
+              </button>
+            </a>
           </div>
         </div>
         <div className="md:w-[25rem]">

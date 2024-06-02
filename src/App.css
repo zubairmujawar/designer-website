@@ -17,6 +17,11 @@
   font-optical-sizing: auto;
   font-weight: 400;
 }
+.pdfBtn:hover{
+  background-color: rgb(255, 59, 59);
+  color: white;
+  transition: ease-in 0.5s;
+}
 .bg-img {
   background: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810353.jpg?t=st=1714921728~exp=1714925328~hmac=5ada44382364eb20715040b74148deeed35a35f093887b60833a20b017db70dd&w=1380");
   background-size: cover;

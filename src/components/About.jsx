@@ -21,7 +21,7 @@ const About = () => {
             I am Zubair Mujawar
           </h1>
           <p className="text-lg poppins p-1 md:p-2">
-            I'm Mujawar Zubair. I completed my graduation from Pune University.
+            I completed my graduation from Pune University.
             Additionally, I have also completed a Graphic Designing Course,
             where I gained proficiency in using Adobe Illustrator, Photoshop,
             CorelDRAW, and InDesign for creating beautiful and captivating
